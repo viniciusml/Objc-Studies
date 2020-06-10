@@ -16,7 +16,7 @@ The return type is placed in parentheses before the method name.
 Conventionally, a space is placed after the - but not before the method name.
  */
 - (void)printGreeting {
-    NSLog(@"Hello!");
+    NSLog(@"Hello, %@!", name);
 }
 
 - (void)printGreeting:(NSString*)greeting {

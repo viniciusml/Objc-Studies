@@ -17,6 +17,9 @@ int main(int argc, const char * argv[]) {
         Person *person = [Person new];
         [person printGreeting:@"Welcome!"];
 
+        // indirect member access operator
+        person->name = @"Taylor";
+
         [person printGreetingTo:@"Taylor!" atTimeOfDay:@"evening"];
     }
     return 0;
