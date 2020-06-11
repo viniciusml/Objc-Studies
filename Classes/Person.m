@@ -23,6 +23,10 @@ Conventionally, a space is placed after the - but not before the method name.
     NSLog(@"%@", greeting);
 }
 
+- (void)printGreeting2 {
+    NSLog(@"Hello, %@!", self.otherName);
+}
+
 - (void)printGreetingTo:(NSString*)name atTimeOfDay: (NSString*)time {
     if ([time isEqualToString:@"morning"]) {
         NSLog(@"Good morning, %@", name);
