@@ -27,6 +27,11 @@ Conventionally, a space is placed after the - but not before the method name.
     NSLog(@"Hello, %@!", self.otherName);
 }
 
+// bypass the property entirely and access the synthesized ivar
+- (void)printGreeting3 {
+    NSLog(@"Hello, %@!", _otherName);
+}
+
 - (void)printGreetingTo:(NSString*)name atTimeOfDay: (NSString*)time {
     if ([time isEqualToString:@"morning"]) {
         NSLog(@"Good morning, %@", name);
