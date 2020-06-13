@@ -8,6 +8,11 @@
 
 #import "Person.h"
 
+// Extension. It's a way to make property 'private'
+@interface Person ()
+@property NSString *name2;
+@end
+
 @implementation Person
 
 /*
