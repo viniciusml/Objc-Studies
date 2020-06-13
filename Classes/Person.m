@@ -15,6 +15,12 @@
 
 @implementation Person
 
+- (instancetype)initWithName:(NSString*)name {
+    if (self = [super init]) {
+        self.name2 = name; }
+    return self;
+}
+
 /*
 The dash marks the start of a normal method; If it's a plus sign, it's a static method.
 The return type is placed in parentheses before the method name.

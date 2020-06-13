@@ -14,7 +14,8 @@ The coding convention in Objective-C is that the first parameter is part of the 
  */
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Person *person = [Person new];
+        Person *person = [[Person alloc] initWithName:@"James"];
+        [person printGreeting];
         [person printGreeting:@"Welcome!"];
 
         // indirect member access operator

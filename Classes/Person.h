@@ -20,8 +20,9 @@ To create ivars inside a class, you need to open a brace directly after the @int
 @property NSString *otherName;
 
 // If not implemented in header, a method remains 'private'
+- (instancetype)initWithName:(NSString*)name;
 - (void)printGreeting;
-- (void)printGreeting2
+- (void)printGreeting2;
 - (void)printGreeting:(NSString*)greeting;
 - (void)printGreetingTo:(NSString*)name atTimeOfDay: (NSString*)time;
 
