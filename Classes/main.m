@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "AnotherPerson.h"
 
 /*
 The coding convention in Objective-C is that the first parameter is part of the method name, which occasionally makes for some clumsy method names like dismissViewControllerAnimated.
@@ -22,6 +23,10 @@ int main(int argc, const char * argv[]) {
         person->name = @"Taylor";
 
         [person printGreetingTo:@"Taylor!" atTimeOfDay:@"evening"];
+
+        AnotherPerson *anotherPerson = [[AnotherPerson alloc] initWithName:@"Taylor"];
+        NSString *greeting = [anotherPerson fetchGreetingForTime:@"morning"];
+        NSLog(@"%@", greeting);
     }
     return 0;
 }

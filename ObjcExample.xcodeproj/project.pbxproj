@@ -12,6 +12,7 @@
 		8F5EF91324709F3200075F1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EF91224709F3200075F1D /* main.m */; };
 		8F78658924957BDD002EE551 /* NSString+Trimming.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F78658824957BDD002EE551 /* NSString+Trimming.m */; };
 		8F89A952246854DA008BD0B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F89A951246854DA008BD0B5 /* main.m */; };
+		8F9AFBE22496C51500F6AD65 /* AnotherPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AFBE12496C51500F6AD65 /* AnotherPerson.m */; };
 		8FE6844A24733A0900061561 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE6844924733A0900061561 /* Person.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		8F78658824957BDD002EE551 /* NSString+Trimming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trimming.m"; sourceTree = "<group>"; };
 		8F89A94E246854DA008BD0B5 /* ObjcExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjcExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F89A951246854DA008BD0B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F9AFBE12496C51500F6AD65 /* AnotherPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherPerson.m; sourceTree = "<group>"; };
+		8F9AFBE32496C54600F6AD65 /* AnotherPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherPerson.h; sourceTree = "<group>"; };
 		8FE6844824733A0900061561 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		8FE6844924733A0900061561 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +96,8 @@
 				8F53FA5A249177CA00BBFB99 /* Person.m */,
 				8F78658724957BDD002EE551 /* NSString+Trimming.h */,
 				8F78658824957BDD002EE551 /* NSString+Trimming.m */,
+				8F9AFBE12496C51500F6AD65 /* AnotherPerson.m */,
+				8F9AFBE32496C54600F6AD65 /* AnotherPerson.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			files = (
 				8F53FA5B249177CA00BBFB99 /* Person.m in Sources */,
 				8F78658924957BDD002EE551 /* NSString+Trimming.m in Sources */,
+				8F9AFBE22496C51500F6AD65 /* AnotherPerson.m in Sources */,
 				8F53FA55249177B100BBFB99 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
