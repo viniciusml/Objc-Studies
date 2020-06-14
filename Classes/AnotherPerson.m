@@ -11,7 +11,9 @@
 @implementation AnotherPerson
 - (instancetype)initWithName:(NSString*)name {
     if (self = [super init]) {
-    self.name = name;
+        NSString *str = nil;
+        self.name = str;
+        self.name = name;
     }
     return self;
 }
