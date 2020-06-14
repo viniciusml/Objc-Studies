@@ -200,7 +200,7 @@
 		8F89A946246854DA008BD0B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Vinicius Moreira Leal";
 				TargetAttributes = {
 					8F53FA51249177B100BBFB99 = {
@@ -269,6 +269,7 @@
 		8F53FA56249177B100BBFB99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SNY4A7B39;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -279,6 +280,7 @@
 		8F53FA57249177B100BBFB99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SNY4A7B39;
 				ENABLE_HARDENED_RUNTIME = YES;
