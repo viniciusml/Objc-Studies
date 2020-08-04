@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F470F8D24D9442E00051D46 /* SFQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F470F8C24D9442E00051D46 /* SFQuote.m */; };
+		8F470F9024D9449F00051D46 /* SFApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F470F8F24D9449F00051D46 /* SFApp.m */; };
 		8F53FA55249177B100BBFB99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F53FA54249177B100BBFB99 /* main.m */; };
 		8F53FA5B249177CA00BBFB99 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F53FA5A249177CA00BBFB99 /* Person.m */; };
 		8F5EF91324709F3200075F1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EF91224709F3200075F1D /* main.m */; };
 		8F78658924957BDD002EE551 /* NSString+Trimming.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F78658824957BDD002EE551 /* NSString+Trimming.m */; };
 		8F89A952246854DA008BD0B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F89A951246854DA008BD0B5 /* main.m */; };
 		8F9AFBE22496C51500F6AD65 /* AnotherPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AFBE12496C51500F6AD65 /* AnotherPerson.m */; };
+		8F9AFBEB2496D0FC00F6AD65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AFBEA2496D0FC00F6AD65 /* main.m */; };
 		8FE6844A24733A0900061561 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE6844924733A0900061561 /* Person.m */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +47,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F9AFBE62496D0FC00F6AD65 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F470F8B24D9442E00051D46 /* SFQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFQuote.h; sourceTree = "<group>"; };
+		8F470F8C24D9442E00051D46 /* SFQuote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFQuote.m; sourceTree = "<group>"; };
+		8F470F8E24D9449F00051D46 /* SFApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFApp.h; sourceTree = "<group>"; };
+		8F470F8F24D9449F00051D46 /* SFApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFApp.m; sourceTree = "<group>"; };
 		8F53FA52249177B100BBFB99 /* Classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Classes; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F53FA54249177B100BBFB99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F53FA59249177CA00BBFB99 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -59,6 +75,8 @@
 		8F89A951246854DA008BD0B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F9AFBE12496C51500F6AD65 /* AnotherPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherPerson.m; sourceTree = "<group>"; };
 		8F9AFBE32496C54600F6AD65 /* AnotherPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherPerson.h; sourceTree = "<group>"; };
+		8F9AFBE82496D0FC00F6AD65 /* Sci-FiQuotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sci-FiQuotes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9AFBEA2496D0FC00F6AD65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FE6844824733A0900061561 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		8FE6844924733A0900061561 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +97,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8F89A94B246854DA008BD0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9AFBE52496D0FC00F6AD65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,6 +141,7 @@
 				8F89A950246854DA008BD0B5 /* ObjcExample */,
 				8F5EF91124709F3200075F1D /* Hangman */,
 				8F53FA53249177B100BBFB99 /* Classes */,
+				8F9AFBE92496D0FC00F6AD65 /* Sci-FiQuotes */,
 				8F89A94F246854DA008BD0B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +152,7 @@
 				8F89A94E246854DA008BD0B5 /* ObjcExample */,
 				8F5EF91024709F3200075F1D /* Hangman */,
 				8F53FA52249177B100BBFB99 /* Classes */,
+				8F9AFBE82496D0FC00F6AD65 /* Sci-FiQuotes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +165,18 @@
 				8FE6844924733A0900061561 /* Person.m */,
 			);
 			path = ObjcExample;
+			sourceTree = "<group>";
+		};
+		8F9AFBE92496D0FC00F6AD65 /* Sci-FiQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				8F9AFBEA2496D0FC00F6AD65 /* main.m */,
+				8F470F8B24D9442E00051D46 /* SFQuote.h */,
+				8F470F8C24D9442E00051D46 /* SFQuote.m */,
+				8F470F8E24D9449F00051D46 /* SFApp.h */,
+				8F470F8F24D9449F00051D46 /* SFApp.m */,
+			);
+			path = "Sci-FiQuotes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +233,23 @@
 			productReference = 8F89A94E246854DA008BD0B5 /* ObjcExample */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F9AFBE72496D0FC00F6AD65 /* Sci-FiQuotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9AFBEC2496D0FC00F6AD65 /* Build configuration list for PBXNativeTarget "Sci-FiQuotes" */;
+			buildPhases = (
+				8F9AFBE42496D0FC00F6AD65 /* Sources */,
+				8F9AFBE52496D0FC00F6AD65 /* Frameworks */,
+				8F9AFBE62496D0FC00F6AD65 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sci-FiQuotes";
+			productName = "Sci-FiQuotes";
+			productReference = 8F9AFBE82496D0FC00F6AD65 /* Sci-FiQuotes */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +267,9 @@
 					};
 					8F89A94D246854DA008BD0B5 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					8F9AFBE72496D0FC00F6AD65 = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
@@ -230,6 +289,7 @@
 				8F89A94D246854DA008BD0B5 /* ObjcExample */,
 				8F5EF90F24709F3200075F1D /* Hangman */,
 				8F53FA51249177B100BBFB99 /* Classes */,
+				8F9AFBE72496D0FC00F6AD65 /* Sci-FiQuotes */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +320,16 @@
 			files = (
 				8FE6844A24733A0900061561 /* Person.m in Sources */,
 				8F89A952246854DA008BD0B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9AFBE42496D0FC00F6AD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F470F9024D9449F00051D46 /* SFApp.m in Sources */,
+				8F9AFBEB2496D0FC00F6AD65 /* main.m in Sources */,
+				8F470F8D24D9442E00051D46 /* SFQuote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +513,26 @@
 			};
 			name = Release;
 		};
+		8F9AFBED2496D0FC00F6AD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SNY4A7B39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F9AFBEE2496D0FC00F6AD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SNY4A7B39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -478,6 +568,15 @@
 			buildConfigurations = (
 				8F89A956246854DA008BD0B5 /* Debug */,
 				8F89A957246854DA008BD0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9AFBEC2496D0FC00F6AD65 /* Build configuration list for PBXNativeTarget "Sci-FiQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9AFBED2496D0FC00F6AD65 /* Debug */,
+				8F9AFBEE2496D0FC00F6AD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
